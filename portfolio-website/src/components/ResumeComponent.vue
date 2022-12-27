@@ -63,6 +63,8 @@ export default {
 
 .resume {
     margin: 3%;
+    font-family: 'Alegreya', serif;
+    font-size: 1em;
 }
 
 .resume-center {

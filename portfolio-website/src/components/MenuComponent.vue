@@ -1,7 +1,7 @@
 <template>
     <div id="menu-div">
 
-        <div id="menu-home-div" class="menu-item-div"
+        <div id="home" class="menu-item-div"
             v-on:click="toHomePage">
             <p class="menu-font">Home</p>
         </div>
@@ -16,7 +16,7 @@
             <p class="menu-font">Example Sites</p>
         </div>
 
-        <div id="menu-resume-div" class="menu-item-div"
+        <div id="resume" class="menu-item-div"
             v-on:click="toResumePage">
             <p class="menu-font">Resume</p>
         </div>
@@ -34,15 +34,23 @@ export default {
     methods: {
         toHomePage() {
             this.$store.commit('TOGGLE_HOME', true);
+            this.scrollDown()
         },
         toAboutPage() {
             this.$store.commit('TOGGLE_ABOUT', true);
+            this.scrollDown()
         },
         toExamplesPage() {
             this.$store.commit('TOGGLE_EXAMPLES', true);
+            this.scrollDown()
         },
         toResumePage() {
             this.$store.commit('TOGGLE_RESUME', true);
+            this.scrollDown()
+        },
+        scrollDown() {
+            console.log('hey')
+            window.scrollTo(0, window.innerHeight);
         }
     }
 }
@@ -65,6 +73,10 @@ export default {
         background-color: rgba(46, 46, 46, 0.5);
         margin-top: 5%;
         cursor: pointer;
+    }
+
+    .menu-item-div:hover {
+        filter: drop-shadow(0 0 2em #f0f0f3aa);
     }
 
     .menu-font {

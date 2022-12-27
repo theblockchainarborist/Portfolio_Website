@@ -19,10 +19,11 @@
 
 .content {
   display: flex;
-  height: 140vh;
+  height: auto;
   width: 100%;
   justify-content: center;
-  align-items: center;
+  align-items: top;
+  padding-top: 9%;
 }
 
 .content-background {

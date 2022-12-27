@@ -2,9 +2,11 @@
 import HelloWorld from './components/HelloWorld.vue'
 import HomeView from './views/HomeView.vue'
 import AniketDeole from '/AniketDeole.jpg'
+
 import MenuComponent from './components/MenuComponent.vue'
 import AboutView from './views/AboutView.vue'
 import ResumeView from './views/ResumeView.vue'
+import ContactInfoComponent from './components/ContactInfoComponent.vue'
 </script>
 
 <template>
@@ -30,12 +32,7 @@ import ResumeView from './views/ResumeView.vue'
     </div>
 
     <div id="main-app-footer-div">
-      <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+      <contact-info-component />
     </div>
     
     
