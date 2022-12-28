@@ -11,27 +11,27 @@ import ContactInfoComponent from './components/ContactInfoComponent.vue'
 
 <template>
   <div id="main-app-div">
-    <div id="main-app-menu-div">
+    <div id="main-app-menu-div" class="header-img">
       <menu-component />
     </div>
 
     <div id="main-app-content-div">
 
-      <div id="main-home-container" v-if="this.$store.state.HomeViewVisible">
+      <div id="main-home-container" v-if="this.$store.state.HomeViewVisible" class="content-img">
         <home-view />
       </div>
 
-      <div id="main-about-container" v-if="this.$store.state.AboutViewVisible">
+      <div id="main-about-container" v-if="this.$store.state.AboutViewVisible" class="content-img">
         <about-view />
       </div>
 
-      <div id="main-resume-container" v-if="this.$store.state.ResumeViewVisible">
+      <div id="main-resume-container" v-if="this.$store.state.ResumeViewVisible" class="content-img">
         <resume-view />
       </div>
       
     </div>
 
-    <div id="main-app-footer-div">
+    <div id="main-app-footer-div" class="footer-img">
       <contact-info-component />
     </div>
     
@@ -50,38 +50,52 @@ import ContactInfoComponent from './components/ContactInfoComponent.vue'
   'menu'
   'content'
   'end';
-  height: 100%;
+  position: absolute;
   width: 100%;
 }
 
 #main-app-menu-div {
   grid-area: menu;
   height: 95vh;
+
 }
 
 #main-app-content-div {
   grid-area: content;
-  height: 140vh;
+  height: 100%;
+  display: flex;
+  min-height: 140vh;
 }
 
 #main-app-footer-div {
   grid-area: end;
   justify-self: center;
-  height: 13vh;
   bottom: 0;
 }
 
 
+.header-img {
+  background: url('/SimonLee.jpg');
+  background-size: 100% 252%;
+  background-position: 100% 0%;
+  width: 100%;
+}
+
+.content-img {
+  height: fit-content;
+  background: url('/SimonLee.jpg');
+  background-size: 100% 176%;
+  background-position: 0% 90%;
+  width: 100%;
+  min-height: 140vh;
+}
+
+.footer-img {
+  background: url('/SimonLee.jpg');
+  background-size: 100% 2000%;
+  background-position: 0% 100%;
+  width: 100%;
+}
 
 
-.logo {
-  height: 6em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
 </style>
