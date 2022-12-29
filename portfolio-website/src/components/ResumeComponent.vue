@@ -49,6 +49,31 @@ client needs. Seeking an environment to develop and improve software products an
 
         <h2 class="resume-section-header">WORK EXPERIENCE</h2>
         
+        <div id="resume-experience-section-info" class="experience-title-date">
+            <div class="company-name-title">
+                <p class="company-name"><strong>Ray Landscaping Services, Inc., Chardon, OH</strong></p>
+                <p class="company-title">Operations Manager</p>
+            </div>
+            <p class="experience-date"><strong>April 2018 - November 2021</strong></p>
+        </div>
+        <div class="experience-bullet-points">
+            <p class="bullet-points">● Consulted with prospective clients and generated work proposals</p>
+            <p class="bullet-points">● Coordinated scheduling to meet customer needs and job site conditions</p>
+            <p class="bullet-points">● Orchestrated employees; overseeing hiring and retention</p>
+        </div>
+
+        <div class="experience-title-date">
+            <div class="company-name-title">
+                <p class="company-name"><strong>Ray Landscaping Services, Inc., Chardon, OH</strong></p>
+                <p class="company-title">Project Leader</p>
+            </div>
+            <p class="experience-date"><strong>April 2015 - March 2018</strong></p>
+        </div>
+        <div class="experience-bullet-points">
+            <p class="bullet-points">● Directed team of 5 focusing on job site efficiency and quality control which resulted in 10% increase in sales</p>
+            <p class="bullet-points">● Communicated with clients addressing job requirements and progression</p>
+            <p class="bullet-points">● Documented daily tasks to ensure accurate billing and scheduling</p>
+        </div>
 
     </div>
 </template>
@@ -77,6 +102,7 @@ export default {
     justify-content: left;
     padding-left: 2%;
     margin-bottom: 0;
+    margin-top: 2%;
 }
 
 #resume-education-section-info {
@@ -99,7 +125,7 @@ export default {
 }
 
 .resume-description-div {
-    margin: 0% 5%;
+    margin-left: 2%;
     width: auto;
     text-justify: left;
 }
@@ -115,5 +141,55 @@ export default {
     padding-left: 1%;
     padding-right: 1%;
 }
+
+.experience-title-date {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'company date'
+    'job-title .';
+}
+
+.company-name-title {
+    grid-area: company;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.experience-date {
+    grid-area: date;
+    text-align: right;
+    padding-right: 2%;
+}
+
+.company-name {
+    height: auto;
+    margin-bottom: 0px;
+}
+
+.company-title {
+    height: auto;
+    margin-top: 2px;
+}
+
+.experience-bullet-points {
+    text-align: left;
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+
+.bullet-points {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.resume p {
+    font-family: 'Alegreya', serif;
+    font-size: 17px;
+}
+
 
 </style>

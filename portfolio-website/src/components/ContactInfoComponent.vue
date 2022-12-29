@@ -47,9 +47,7 @@ export default {
 <style>
 
 #footer-main-div {
-    
     text-align: center;
-    
     width: 100%;
     align-items: center;
     padding-bottom: 1%;
@@ -57,6 +55,7 @@ export default {
 
 #contact-info-title {
     font-family: 'Alegreya', serif;
+    font-size: 1.2vw;
     font-weight: 500;
 }
 

@@ -2,7 +2,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import HomeView from './views/HomeView.vue'
 import AniketDeole from '/AniketDeole.jpg'
-
+import ExamplesView from './views/ExamplesView.vue'
 import MenuComponent from './components/MenuComponent.vue'
 import AboutView from './views/AboutView.vue'
 import ResumeView from './views/ResumeView.vue'
@@ -23,6 +23,10 @@ import ContactInfoComponent from './components/ContactInfoComponent.vue'
 
       <div id="main-about-container" v-if="this.$store.state.AboutViewVisible" class="content-img">
         <about-view />
+      </div>
+
+      <div id="main-examples-container" v-if="this.$store.state.ExamplesViewVisible" class="content-img">
+        <examples-view />
       </div>
 
       <div id="main-resume-container" v-if="this.$store.state.ResumeViewVisible" class="content-img">
@@ -52,6 +56,7 @@ import ContactInfoComponent from './components/ContactInfoComponent.vue'
   'end';
   position: absolute;
   width: 100%;
+  background-clip: padding-box;
 }
 
 #main-app-menu-div {
@@ -76,18 +81,20 @@ import ContactInfoComponent from './components/ContactInfoComponent.vue'
 
 .header-img {
   background: url('/SimonLee.jpg');
-  background-size: 100% 252%;
+  background-size: 100% 259%;
   background-position: 100% 0%;
   width: 100%;
+   background-clip: padding-box;
 }
 
 .content-img {
   height: fit-content;
   background: url('/SimonLee.jpg');
-  background-size: 100% 176%;
+  background-size: 100% 175%;
   background-position: 0% 90%;
   width: 100%;
   min-height: 140vh;
+   background-clip: padding-box;
 }
 
 .footer-img {
@@ -95,6 +102,7 @@ import ContactInfoComponent from './components/ContactInfoComponent.vue'
   background-size: 100% 2000%;
   background-position: 0% 100%;
   width: 100%;
+   background-clip: padding-box;
 }
 
 

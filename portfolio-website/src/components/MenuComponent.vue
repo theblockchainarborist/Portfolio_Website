@@ -73,6 +73,7 @@ export default {
         background-color: rgba(46, 46, 46, 0.5);
         margin-top: 5%;
         cursor: pointer;
+        border-radius: 4px;
     }
 
     .menu-item-div:hover {
@@ -80,7 +81,7 @@ export default {
     }
 
     .menu-font {
-        font-family: 'Alegreya', sans-serif;
+        font-family: 'Alegreya', serif;
         font-size: 2rem;
         font-weight: 800;
         margin: 20px;
