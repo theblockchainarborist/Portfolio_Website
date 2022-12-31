@@ -1,7 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import HomeView from './views/HomeView.vue'
-import AniketDeole from '/AniketDeole.jpg'
 import ExamplesView from './views/ExamplesView.vue'
 import MenuComponent from './components/MenuComponent.vue'
 import AboutView from './views/AboutView.vue'

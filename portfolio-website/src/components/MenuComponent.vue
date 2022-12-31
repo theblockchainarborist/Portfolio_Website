@@ -13,7 +13,7 @@
 
         <div id="menu-example-sites-div" class="menu-item-div"
             v-on:click="toExamplesPage">
-            <p class="menu-font">Example Sites</p>
+            <p class="menu-font">Example Websites</p>
         </div>
 
         <div id="resume" class="menu-item-div"
