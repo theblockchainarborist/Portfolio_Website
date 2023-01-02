@@ -26,6 +26,9 @@ client needs. Seeking an environment to develop and improve software products an
             <p class="resume-description">
                 ● <strong> Capstone Project </strong> - An API / application for sending and receiving TE-Bucks. This project utilizes Java and Spring Boot to simulate sending and receiving virtual cash!
             </p>
+            <p class="resume-description">
+                ● <strong> Capstone Project </strong> - A full stack comic book collection management website. This project utilizes a PostgreSQL database, a Spring Boot REST API, and a Vue UI to allow users to manage comic book collections. 
+            </p>
         </div>
         
 

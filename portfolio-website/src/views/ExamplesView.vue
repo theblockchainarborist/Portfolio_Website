@@ -1,14 +1,14 @@
 <template>
     <div id="examples-view-main-div" class="content">
         <div id="examples-div" class="content-background">
-            <p id="example-websites-title" class="title bold">Example Websites</p>
+            <p id="example-websites-title" class="section-title">Example Websites</p>
             <br>
             <p>Please click any of the below thumbnail's to view the project on CodeSandBox.io.</p>
 
             <br>
             
             <div>
-                <sand-box-thumb-nail />
+                <completed-projects-thumbnail />
             </div>
         </div>
 
@@ -19,9 +19,9 @@
 
 <script>
 import ReturnTopBtn from '../components/ReturnTopBtn.vue'
-import SandBoxThumbNail from '../components/SandBoxThumbNail.vue'
+import CompletedProjectsThumbnail from '../components/CompletedProjectsThumbnail.vue'
 export default {
-  components: { ReturnTopBtn, SandBoxThumbNail },
+  components: { ReturnTopBtn, CompletedProjectsThumbnail },
 
 }
 </script>

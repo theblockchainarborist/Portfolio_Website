@@ -15,10 +15,10 @@
 
 
 export default {
-  name: 'CodeSandboxLink',
+  name: 'completed-projects-thumbnail',
   computed: {
     allThumbnails() {
-      let thumbnails = this.$store.state.thumbnails;
+      let thumbnails = this.$store.state.completedProjects;
       return thumbnails;
     }
   }
@@ -49,6 +49,36 @@ export default {
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-items: center;
+    }
+
+
+     /* Mobile CSS */
+    @media (max-width: 800px) {
+
+        .thumbnail-img {
+            width: 150px;
+            height: 100px;
+        }
+
+        .thumbnail {
+            display: flex;
+            flex-direction: column;
+            border: solid 3px black;
+            width: 175px;
+            height: auto;
+            padding: 1%;
+            margin: 2%;
+            background-color: rgba(0, 0, 0, 0.342);
+            align-items: center;
+            color: rgba(255, 255, 255, 0.87);
+            text-decoration: none;
+        }
+
+        #thumbnail-grid-div {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-items: center;
+        }
     }
 
 

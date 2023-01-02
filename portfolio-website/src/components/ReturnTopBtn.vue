@@ -34,4 +34,16 @@ export default {
     cursor: pointer;
 }
 
+
+/* Mobile CSS */
+@media (max-width: 1400px) {
+    
+    #btn-return {
+    font-size: 17px;
+    font-family: 'Alegreya', serif;
+    font-weight: 550;
+    border-radius: 5px;
+}
+}
+
 </style>

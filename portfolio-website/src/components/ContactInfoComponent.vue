@@ -23,13 +23,18 @@
             </a>
 
 
-            <a href="tg://resolve?domain=theblockchainarborist" class="contact-icon-div">
+            <a href="tg://resolve?domain=theblockchainarborist" title="Telegram" class="contact-icon-div">
                 <img class="contact-icon" src="../assets/TelegramIcon.png" alt="Telegram">
             </a>
-            
-
 
         </div>
+        
+        <p class="attributes">
+            Background Image by 
+            <a href="https://unsplash.com/@simonppt" class="link">Simon Lee</a>
+            on 
+            <a href="https://unsplash.com/" class="link">unsplash.com</a> 
+        </p>
     </div>
 </template>
 
@@ -88,5 +93,29 @@ export default {
 #github-link {
     width: 50px;
 }
+
+.link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.attributes {
+    font-size: 12px;
+    margin-top: 2%;
+    margin-bottom: 0%;
+}
+
+
+/* Mobile CSS */
+@media (max-width: 1400px) {
+
+    #contact-info-title {
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+}
+
+
 
 </style>

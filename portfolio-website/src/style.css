@@ -3,12 +3,8 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  
-
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -18,7 +14,7 @@
   width: 100%;
   margin-left: -8px;
   margin-top: -8px;
-
+  scroll-behavior: smooth;
 }
 
 
@@ -38,6 +34,7 @@
   width: 60vw;
   height: auto;
   text-align: center;
+  padding-bottom: 1%;
 }
 
 .title {
@@ -48,6 +45,11 @@
 
 .bold {
   font-weight: 600;
+}
+
+.section-title {
+  font-family: 'Alegreya', serif;
+  font-size: 2.5vw;
 }
 
 
@@ -72,4 +74,27 @@
 }
 
 
+/* Mobile CSS */
+@media (max-width: 700px) {
+  .content-background {
+    border: solid 2px black;
+    background-color: rgba(29, 28, 28, 0.507);
+    width: 60%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 1%;
+  }
+} 
 
+@media (max-width: 1400px) {
+  .title {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Alegreya', serif;
+  }
+
+  .section-title {
+    font-family: 'Alegreya', serif;
+    font-size: 35px;
+  }
+} 
