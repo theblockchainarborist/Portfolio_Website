@@ -17,7 +17,6 @@
 
 <script>
 import DownloadBtn from '../components/DownloadBtn.vue'
-
 import ResumeComponent from '../components/ResumeComponent.vue'
 import ReturnTopBtn from '../components/ReturnTopBtn.vue'
 export default {

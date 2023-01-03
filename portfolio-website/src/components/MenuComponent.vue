@@ -87,4 +87,37 @@ export default {
         margin: 20px;
     }
 
+
+    /* Mobile CSS */
+@media (max-width: 700px) {
+
+    .menu-font {
+        font-family: 'Alegreya', serif;
+        font-size: 20px;
+        font-weight: 800;
+        margin: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .menu-font {
+        font-family: 'Alegreya', serif;
+        font-size: 16px;
+        font-weight: 800;
+        margin: 10px;
+    }
+}
+
+
+@media (max-width: 350px) {
+
+    .menu-font {
+        font-family: 'Alegreya', serif;
+        font-size: 12px;
+        font-weight: 800;
+        margin: 5px;
+    }
+}
+
 </style>

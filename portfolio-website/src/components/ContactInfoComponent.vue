@@ -101,7 +101,7 @@ export default {
 
 .attributes {
     font-size: 12px;
-    margin-top: 2%;
+    margin-top: 1%;
     margin-bottom: 0%;
 }
 

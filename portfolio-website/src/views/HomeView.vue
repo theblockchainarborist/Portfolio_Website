@@ -8,7 +8,7 @@
 
             <br>
             <div class="title-div">
-                <p class="title underline">Current Service Offerings</p>
+                <p class="title underline">Current Service Offering's</p>
             </div>
             
             <p class="service-offerings">● Website design / build services</p>
@@ -19,7 +19,7 @@
 
             <br>
             <div class="title-div">
-                <p class="title underline">Ongoing Projects</p>
+                <p class="title underline">Ongoing Project's</p>
             </div>
             
             <ongoing-projects-thumbnail />
@@ -50,8 +50,6 @@ export default {
     flex-direction: column;
     align-items: center;
 }
-
-
 
 .center-text {
     margin-top: 0px;
