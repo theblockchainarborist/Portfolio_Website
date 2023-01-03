@@ -49,7 +49,6 @@ export default {
             this.scrollDown()
         },
         scrollDown() {
-            console.log('hey')
             window.scrollTo(0, window.innerHeight);
         }
     }

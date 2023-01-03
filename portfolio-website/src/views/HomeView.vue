@@ -4,11 +4,11 @@
         <div class="content-background">
             <p id="welcome" class="section-title">Welcome!</p>
             <br>
-            <p class="center-text">Hello, I am Connor Ray and this is my protfolio website! Here you will find information on my currently ongoing projects, my past completed projects, and of course my current service offerings. If you would like to contact me to go over job opportunities or project requirements please find my relevant contact information at the bottom of this page! </p>
+            <p class="center-text">Hello, I am Connor Ray and this is my portfolio website! Here you will find information on my current ongoing projects, my past completed projects, and of course my current service offerings. If you would like to contact me to go over job opportunities or project requirements please find my relevant contact information at the bottom of this page! </p>
 
             <br>
             <div class="title-div">
-                <p class="title underline">Current Service Offering's</p>
+                <p class="title underline">Current Service Offerings</p>
             </div>
             
             <p class="service-offerings">● Website design / build services</p>
@@ -19,7 +19,7 @@
 
             <br>
             <div class="title-div">
-                <p class="title underline">Ongoing Project's</p>
+                <p class="title underline">Ongoing Projects</p>
             </div>
             
             <ongoing-projects-thumbnail />
