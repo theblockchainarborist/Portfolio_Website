@@ -3,7 +3,7 @@
         <div id="examples-div" class="content-background">
             <p id="example-websites-title" class="section-title">Example Websites</p>
             <br>
-            <p>Please click any of the below thumbnail's to view the project on CodeSandBox.io.</p>
+            <p>Please click any of the below thumbnails to view the project on CodeSandBox.io.</p>
 
             <br>
             

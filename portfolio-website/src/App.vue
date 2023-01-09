@@ -15,19 +15,19 @@ import ContactInfoComponent from './components/ContactInfoComponent.vue'
 
     <div id="main-app-content-div">
 
-      <div id="main-home-container" v-if="this.$store.state.HomeViewVisible" class="content-img">
+      <div id="main-home-container" v-if="$store.state.HomeViewVisible" class="content-img">
         <home-view />
       </div>
 
-      <div id="main-about-container" v-if="this.$store.state.AboutViewVisible" class="content-img">
+      <div id="main-about-container" v-if="$store.state.AboutViewVisible" class="content-img">
         <about-view />
       </div>
 
-      <div id="main-examples-container" v-if="this.$store.state.ExamplesViewVisible" class="content-img">
+      <div id="main-examples-container" v-if="$store.state.ExamplesViewVisible" class="content-img">
         <examples-view />
       </div>
 
-      <div id="main-resume-container" v-if="this.$store.state.ResumeViewVisible" class="content-img">
+      <div id="main-resume-container" v-if="$store.state.ResumeViewVisible" class="content-img">
         <resume-view />
       </div>
       

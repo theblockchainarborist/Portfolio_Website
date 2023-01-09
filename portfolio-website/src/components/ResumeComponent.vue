@@ -21,13 +21,13 @@ client needs. Seeking an environment to develop and improve software products an
                 hardening, and user support for the API / machine learning portions of the project.
             </p>
             <p class="resume-description">
-                ● <strong> Capstone Project </strong> - A vending machine application written in Java. Created an application to manage a vending machine.
+                ● <strong> VendingMachineInterface </strong> - A vending machine application written in Java. Created an application to manage a vending machine.
             </p>
             <p class="resume-description">
-                ● <strong> Capstone Project </strong> - An API / application for sending and receiving TE-Bucks. This project utilizes Java and Spring Boot to simulate sending and receiving virtual cash!
+                ● <strong> TEnmo </strong> - An API / application for sending and receiving TE-Bucks. This project utilizes Java and Spring Boot to simulate sending and receiving virtual cash!
             </p>
             <p class="resume-description">
-                ● <strong> Capstone Project </strong> - A full stack comic book collection management website. This project utilizes a PostgreSQL database, a Spring Boot REST API, and a Vue UI to allow users to manage comic book collections. 
+                ● <strong> ComicCollection </strong> - A full stack comic book collection management website. This project utilizes a PostgreSQL database, a Spring Boot REST API, and a Vue UI to allow users to manage comic book collections. 
             </p>
         </div>
         
