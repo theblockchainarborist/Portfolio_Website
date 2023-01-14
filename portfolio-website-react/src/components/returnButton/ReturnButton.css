@@ -1,0 +1,27 @@
+.return-btn {
+    display: flex;
+    width: 98%;
+    justify-content: right;
+    margin-top: 1%;
+}
+
+#btn-return {
+    font-size: 1.2vw;
+    font-family: 'Alegreya', serif;
+    font-weight: 550;
+    border-radius: 5px;
+}
+
+#btn-return:hover {
+    cursor: pointer;
+}
+
+  /* Mobile CSS */
+@media (max-width: 1400px) {
+    #btn-return {
+        font-size: 17px;
+        font-family: 'Alegreya', serif;
+        font-weight: 550;
+        border-radius: 5px;
+    }
+}

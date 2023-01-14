@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,800;1,700&display=swap');
+
+/* Main */
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  height: 250%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+#main-app-div {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+  'menu'
+  'content'
+  'end';
+  position: absolute;
+  width: 100%;
+  background-clip: padding-box;
+  color: white;
+}
+
+
+.content {
+  display: flex;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  align-items: top;
+  padding-top: 9%;
+}
+
+.content-background {
+  border: solid 2px black;
+  background-color: rgba(29, 28, 28, 0.507);
+  width: 60vw;
+  height: auto;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.title {
+  font-size: 1.8vw;
+  font-weight: 500;
+  font-family: 'Alegreya', serif;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.section-title {
+  font-family: 'Alegreya', serif;
+  font-size: 2.5vw;
+}
+
+
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: rgba(36, 35, 35, 0.966);
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #d3d3d3bb;
+}
+
+
+/* Mobile CSS */
+@media (max-width: 700px) {
+  .content-background {
+    border: solid 2px black;
+    background-color: rgba(29, 28, 28, 0.507);
+    width: 60%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 1%;
+  }
+} 
+
+@media (max-width: 1400px) {
+  .title {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Alegreya', serif;
+  }
+
+  .section-title {
+    font-family: 'Alegreya', serif;
+    font-size: 35px;
+  }
+} 
+
+
+
+
+/* Header / Menu */
+#main-app-menu-div {
+  grid-area: menu;
+  height: 95vh;
+}
+.header-img {
+  background: url('../public/SimonLee.jpg');
+  background-size: 100% 259%;
+  background-position: 100% 0%;
+  width: 100%;
+  min-width: 100%;
+  background-clip: padding-box;
+}
+
+/* Content Area */
+#main-app-content-div {
+  grid-area: content;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  min-height: 140vh;
+  justify-content: center;
+}
+.content-img {
+  height: fit-content;
+  background: url('../public/SimonLee.jpg');
+  background-size: 100% 175%;
+  background-position: 0% 90%;
+  width: 100%;
+  min-height: 140vh;
+
+  background-clip: padding-box;
+}
+
+
+/* Footer Area */
+#main-app-footer-div {
+  grid-area: end;
+  justify-self: center;
+  bottom: 0;
+}
+.footer-img {
+  background: url('../public/SimonLee.jpg');
+  background-size: 100% 2000%;
+  background-position: 0% 100%;
+  width: 100%;
+  background-clip: padding-box;
+}
