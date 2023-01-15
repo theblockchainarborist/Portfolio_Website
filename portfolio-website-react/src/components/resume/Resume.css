@@ -1,0 +1,104 @@
+.resume {
+    margin: 3%;
+    font-family: 'Alegreya', serif;
+    font-size: 1em;
+}
+
+.resume-center {
+    margin: 0% 10%;
+}
+
+.resume-section-header {
+    display: flex;
+    border-bottom: solid 1px white;
+    justify-content: left;
+    padding-left: 2%;
+    margin-bottom: 0;
+    margin-top: 2%;
+}
+
+#resume-education-section-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'title date';
+}
+
+#education-section-title-1 {
+    grid-area: title;
+    justify-self: left;
+    padding-left: 2%;
+}
+
+#education-section-date-1 {
+    grid-area: date;
+    justify-self: right;
+    padding-right: 2%;
+}
+
+.resume-description-div {
+    margin-left: 2%;
+    width: auto;
+    text-justify: left;
+}
+
+.resume-description {
+    margin-top: 0;
+    text-align: left;
+}
+
+.resume-p-div {
+    margin-top: 1%;
+    width: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.experience-title-date {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'company date'
+    'job-title .';
+}
+
+.company-name-title {
+    grid-area: company;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.experience-date {
+    grid-area: date;
+    text-align: right;
+    padding-right: 2%;
+}
+
+.company-name {
+    height: auto;
+    margin-bottom: 0px;
+}
+
+.company-title {
+    height: auto;
+    margin-top: 2px;
+}
+
+.experience-bullet-points {
+    text-align: left;
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+
+.bullet-points {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.resume p {
+    font-family: serif;
+    font-size: 17px;
+}

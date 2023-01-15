@@ -40,7 +40,9 @@
     font-size: .8vw;
 }
 
+
 .link {
+    font-size: 12px;
     color: white;
     text-decoration: none;
 }

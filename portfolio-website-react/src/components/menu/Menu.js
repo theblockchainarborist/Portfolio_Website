@@ -1,12 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../menu/Menu.css'
 
 const Menu = (props) => {
 
-    const [home, setHome] = useState(false);
+    const [home, setHome] = useState(true);
     const [about, setAbout] = useState(false);
     const [examples, setExamples] = useState(false);
     const [resume, setResume] = useState(false);
+
+
+    useEffect(() => {
+        props.onStateChange({home,about,examples,resume});
+    })
 
 
     const toHomePage = () => {
@@ -14,7 +19,6 @@ const Menu = (props) => {
         setAbout(false);
         setExamples(false);
         setResume(false);
-        props.onStateChange({home,about,examples,resume});
         scrollDown();
     }
     const toAboutPage = () => {
@@ -22,7 +26,6 @@ const Menu = (props) => {
         setHome(false);
         setExamples(false);
         setResume(false);
-        props.onStateChange({home,about,examples,resume});
         scrollDown();
     }
     const toExamplesPage = () => {
@@ -30,7 +33,6 @@ const Menu = (props) => {
         setHome(false);
         setAbout(false);
         setResume(false);
-        props.onStateChange({home,about,examples,resume});
         scrollDown();
     }
     const toResumePage = () => {
@@ -38,7 +40,6 @@ const Menu = (props) => {
         setHome(false);
         setAbout(false);
         setExamples(false);
-        props.onStateChange({home,about,examples,resume});
         scrollDown();
     }
 

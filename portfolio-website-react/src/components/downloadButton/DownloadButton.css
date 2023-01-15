@@ -1,0 +1,28 @@
+.download-btn {
+    display: flex;
+    width: 60%;
+    justify-content: left;
+    margin-top: 1%;
+}
+
+#btn-download {
+    font-size: 1.2vw;
+    font-family: 'Alegreya', serif;
+    font-weight: 550;
+    border-radius: 5px;
+}
+
+#btn-download:hover {
+    cursor: pointer;
+}
+
+
+/* Mobile CSS */
+@media (max-width: 1400px) {
+    #btn-download {
+        font-size: 17px;
+        font-family: 'Alegreya', serif;
+        font-weight: 550;
+        border-radius: 5px;
+    }
+}

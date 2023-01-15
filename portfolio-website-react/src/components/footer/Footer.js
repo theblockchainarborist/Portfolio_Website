@@ -26,10 +26,10 @@ const Footer = () => {
                 <img className="contact-icon" src={TelegramIcon} alt="Telegram" />
             </a>
         </div>
-        <p className="attributes">
+        <p className="attributes" style={{fontSize: '12px'}} >
             Background Image by  
             <a href="https://unsplash.com/@simonppt" className="link"> Simon Lee </a>
-             on 
+            on
             <a href="https://unsplash.com/" className="link"> unsplash.com</a> 
         </p>
     </div>
