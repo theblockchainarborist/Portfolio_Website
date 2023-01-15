@@ -20,10 +20,10 @@
 }
 
 #contact-info-links {
-
     display: flex;
     justify-content: center;
     height: 100%;
+    margin-left: 2%;
 }
 
 .contact-icon-div {

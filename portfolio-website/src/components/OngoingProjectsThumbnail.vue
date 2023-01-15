@@ -4,7 +4,7 @@
        
         <p class="title">{{thumbnail.name}}</p>
             
-                <img  v-bind:src="thumbnail.img" alt="Code Sandbox thumbnail" class="thumbnail-img"> 
+                <img v-bind:src="thumbnail.img" alt="Code Sandbox thumbnail" class="thumbnail-img"> 
             <p>{{thumbnail.description}}</p>    
         
         </a>

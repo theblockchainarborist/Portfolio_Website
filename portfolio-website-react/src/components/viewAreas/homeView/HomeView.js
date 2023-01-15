@@ -1,4 +1,5 @@
 import React from 'react';
+import OngoingProjects from '../../projects/ongoingProjects/OngoingProjects';
 import ReturnButton from '../../returnButton/ReturnButton';
 import './HomeView.css';
 
@@ -27,7 +28,7 @@ const HomeView = () => {
                     <p className="title underline">Ongoing Projects</p>
                 </div>
 
-                
+                <OngoingProjects />
 
             </div>
             {/* Return top BTN here */}
