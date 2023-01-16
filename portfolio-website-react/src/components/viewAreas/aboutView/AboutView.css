@@ -5,6 +5,9 @@
 }
 
 .center-text-about {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0% 10%;
+}
+
+#email-link {
+    font-size: 16px;
 }

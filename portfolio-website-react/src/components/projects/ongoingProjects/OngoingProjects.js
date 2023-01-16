@@ -25,7 +25,7 @@ const OngoingProjects = () => {
             {projectsOngoing.map(project => (
                 <div key={project.id} className="thumbnail">
 
-                    <h2>{project.name}</h2>
+                    <h2 id="thumbnail-header">{project.name}</h2>
 
                     <a href={project.link}>
 

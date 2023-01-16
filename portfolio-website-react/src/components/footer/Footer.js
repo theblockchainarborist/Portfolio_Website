@@ -33,7 +33,7 @@ const Footer = () => {
             <a href="https://unsplash.com/" className="link"> unsplash.com</a> 
         </p>
     </div>
-  )
+    )
 }
 
 export default Footer;

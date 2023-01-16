@@ -9,7 +9,7 @@ function AboutView() {
             <p className="section-title">Meet the Creator</p>
 
             <p className="center-text-about">
-                Connor Ray is a software developer with a keen eye for detail and a strong desire for creating products that not only meet but exceed customer expectations. With a background in small business ownership as a landscape contractor, Connor has experience taking ownership of projects and managing all aspects of their development. A Cleveland, Ohio native and Tech Elevator graduate, he is always looking for new opportunities to work on interesting projects and join talented teams. If you're interested in hiring Connor or adding him to your team, feel free to reach out to him at <a href="mailto:connor2ray@gmail.com" title="Email" className="link">connor2ray@gmail.com</a> for more information.
+                Connor Ray is a software developer with a keen eye for detail and a strong desire for creating products that not only meet but exceed customer expectations. With a background in small business ownership as a landscape contractor, Connor has experience taking ownership of projects and managing all aspects of their development. A Cleveland, Ohio native and Tech Elevator graduate, he is always looking for new opportunities to work on interesting projects and join talented teams. If you're interested in hiring Connor or adding him to your team, feel free to reach out to him at <a id="email-link" href="mailto:connor2ray@gmail.com" title="Email" className="link">connor2ray@gmail.com</a> for more information.
             </p>
 
             <br />

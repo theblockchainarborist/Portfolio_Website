@@ -2,7 +2,6 @@
     width: 20vw;
     height: 15vw;
 }
-
 .thumbnail {
     display: flex;
     flex-direction: column;
@@ -16,11 +15,13 @@
     color: rgba(255, 255, 255, 0.87);
     text-decoration: none;
 }
-
 #past-projects-grid-div {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+}
+h2 {
+    font-size: 1.5vw;
 }
 
 
@@ -31,23 +32,15 @@
         width: 150px;
         height: 100px;
     }
-
     .thumbnail {
-        display: flex;
-        flex-direction: column;
-        border: solid 3px black;
         width: 175px;
-        height: auto;
-        padding: 1%;
-        margin: 2%;
-        background-color: rgba(0, 0, 0, 0.342);
-        align-items: center;
-        text-decoration: none;
     }
-
     #past-projects-grid-div {
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
+    }
+    h2 {
+        font-size: 22px;
     }
 }
