@@ -1,2 +1,9 @@
 # Portfolio_Website
-My portfolio website
+A clean basic portfolio website. 
+
+<br />
+
+### Duplicate Builds Using:
+
+ - Vue.js
+ - React
