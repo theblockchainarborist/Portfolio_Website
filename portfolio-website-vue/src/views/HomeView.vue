@@ -21,24 +21,30 @@
             <div class="title-div">
                 <p class="title underline">Ongoing Projects</p>
             </div>
+            <p class="no-margin">Please click any of the below thumbnails to view full page image.</p>
             
             <ongoing-projects-thumbnail />
 
         </div>
         
         <return-top-btn />
+
+        <div>
+            <full-screen-image />
+        </div>
     
     </div>
 </template>
 
 <script>
+import FullScreenImage from '../components/FullScreenImage.vue'
 import MenuComponent from '../components/MenuComponent.vue'
 import OngoingProjectsThumbnail from '../components/OngoingProjectsThumbnail.vue'
 import ReturnTopBtn from '../components/ReturnTopBtn.vue'
 
 
 export default {
-  components: {MenuComponent, ReturnTopBtn, OngoingProjectsThumbnail},
+  components: {MenuComponent, ReturnTopBtn, OngoingProjectsThumbnail, FullScreenImage},
 
 }
 </script>
@@ -70,6 +76,10 @@ export default {
 .title-div {
     display: flex;
     justify-content: center;
+}
+
+.no-margin {
+    margin: 0px;
 }
 
 

@@ -1,21 +1,27 @@
 <template>
     <div id="thumbnail-grid-div">
-        <a v-bind:href="thumbnail.link" v-for="thumbnail in allThumbnails" v-bind:key="thumbnail.id" class="thumbnail">
+        <div v-for="thumbnail in allThumbnails" v-bind:key="thumbnail.id" class="thumbnail" v-on:click="displayImage(thumbnail.img)" >
        
         <p class="title">{{thumbnail.name}}</p>
             
                 <img  v-bind:src="thumbnail.img" alt="Code Sandbox thumbnail" class="thumbnail-img"> 
             <p>{{thumbnail.description}}</p>    
         
-        </a>
+        </div>
     </div>
 </template>
 
 <script>
-
+import store from '../store/index';
 
 export default {
   name: 'completed-projects-thumbnail',
+  methods: {
+    displayImage(img) {
+        store.commit("SET_CURRENT_IMAGE_PATH", img);
+        store.commit("SET_FULL_SCREEN_IMAGE", true);
+    }
+  }, 
   computed: {
     allThumbnails() {
       let thumbnails = this.$store.state.completedProjects;
@@ -28,7 +34,7 @@ export default {
 <style scoped>
     .thumbnail-img {
         width: 15vw;
-        height: 15vw;
+        height: 12vw;
     }
 
     .thumbnail {
@@ -43,6 +49,7 @@ export default {
         align-items: center;
         color: rgba(255, 255, 255, 0.87);
         text-decoration: none;
+        cursor: pointer;
     }
 
     #thumbnail-grid-div {

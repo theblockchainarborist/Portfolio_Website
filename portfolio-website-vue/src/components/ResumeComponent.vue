@@ -8,17 +8,18 @@ client needs. Seeking an environment to develop and improve software products an
 
         <h2 class="resume-section-header">TECHNICAL SKILLS</h2>
             <div class="resume-p-div">
-                <p class="resume-description">● Spring Boot, Java, PostgreSQL, HTML, CSS, JavaScript, Vue.js, Responsive Design, IntelliJ, Git, Unit Testing (JUnit), E/R
-                diagrams, Integration Testing, Unix</p>
+                <p class="resume-description">● Java, JavaScript, Vue.js, React.js, PostgreSQL, HTML, CSS, Spring Boot, Responsive Design, IntelliJ, Git, Unit Testing
+                    (JUnit), E/R diagrams, Integration Testing, Windows, Linux</p>
             </div>
         
 
         <h2 class="resume-section-header">TECHNICAL EXPERIENCE</h2>
         <div class="resume-p-div">
             <p class="resume-description">
-                ● <strong> Superalgos </strong> - Open source algorithmic trading software      written primarily in JavaScript and using Node.js. As a
-                developer and moderator for the project my efforts have been focused between implementing new features, system
-                hardening, and user support for the API / machine learning portions of the project.
+                ● <strong> connor-ray.com </strong> - A personal portfolio website created in both Vue and React!
+            </p>
+            <p class="resume-description">
+                ● <strong> Contract Work </strong> - Created client proposed version of the Mitre ATT&CK Navigator for private use.
             </p>
             <p class="resume-description">
                 ● <strong> VendingMachineInterface </strong> - A vending machine application written in Java. Created an application to manage a vending machine.
@@ -27,11 +28,12 @@ client needs. Seeking an environment to develop and improve software products an
                 ● <strong> TEnmo </strong> - An API / application for sending and receiving TE-Bucks. This project utilizes Java and Spring Boot to simulate sending and receiving virtual cash!
             </p>
             <p class="resume-description">
+                ● <strong> Contract Work </strong> - Worked as a Data Analyst to combine and generate required data files.
+            </p>
+            <p class="resume-description">
                 ● <strong> ComicCollection </strong> - A full stack comic book collection management website. This project utilizes a PostgreSQL database, a Spring Boot REST API, and a Vue UI to allow users to manage comic book collections. 
             </p>
         </div>
-        
-
         
 
 
@@ -49,12 +51,38 @@ client needs. Seeking an environment to develop and improve software products an
             </p>
         </div>
 
+        <div id="resume-education-section-info">
+            <p id="education-section-title-1"> <strong>Hocking College</strong>, Nelsonville, OH</p>
+            <p id="education-section-date-1"><strong>September 2013 – April 2015</strong></p>
+        </div>
+
+        <div class="resume-description-div">
+            <p class="resume-description">
+                A two year business management program focused on effectively managing small to medium sized businesses.
+            </p>
+        </div>
+
 
         <h2 class="resume-section-header">WORK EXPERIENCE</h2>
+
+        <div id="resume-experience-section-info" class="experience-title-date">
+            <div class="company-name-title">
+                <p class="company-name"><strong>Superalgos, </strong> Remote</p>
+                <p class="company-title">Developer</p>
+            </div>
+            <p class="experience-date"><strong>November 2021 - Present</strong></p>
+        </div>
+        <div class="experience-bullet-points">
+            <p class="bullet-points">● Operated as Social Trading App team lead</p>
+            <p class="bullet-points">● Created user defined themes for the Charting Space</p>
+            <p class="bullet-points">● Improved and expanded on pre-existing API functionality</p>
+            <p class="bullet-points">● Piloted machine learning efforts by running the main community test server</p>
+            <p class="bullet-points">● Produced bug fixes and new functions for all teams on request</p>
+        </div>
         
         <div id="resume-experience-section-info" class="experience-title-date">
             <div class="company-name-title">
-                <p class="company-name"><strong>Ray Landscaping Services, Inc., Chardon, OH</strong></p>
+                <p class="company-name"><strong>Ray Landscaping Services, Inc.,</strong> Chardon, OH</p>
                 <p class="company-title">Operations Manager</p>
             </div>
             <p class="experience-date"><strong>April 2018 - November 2021</strong></p>
@@ -67,7 +95,7 @@ client needs. Seeking an environment to develop and improve software products an
 
         <div class="experience-title-date">
             <div class="company-name-title">
-                <p class="company-name"><strong>Ray Landscaping Services, Inc., Chardon, OH</strong></p>
+                <p class="company-name"><strong>Ray Landscaping Services, Inc.,</strong> Chardon, OH</p>
                 <p class="company-title">Project Leader</p>
             </div>
             <p class="experience-date"><strong>April 2015 - March 2018</strong></p>
@@ -113,6 +141,7 @@ export default {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
     'title date';
+    margin-bottom: -10px;
 }
 
 #education-section-title-1 {
@@ -151,6 +180,7 @@ export default {
     grid-template-areas: 
     'company date'
     'job-title .';
+    margin-bottom: -10px;
 }
 
 .company-name-title {

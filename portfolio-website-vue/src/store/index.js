@@ -6,6 +6,8 @@ export default createStore({
         AboutViewVisible: false,
         ExamplesViewVisible: false,
         ResumeViewVisible: false,
+        FullScreenImage: false,
+        currentImagePath: "",
         completedProjects: [
             {
                 id: 1,
@@ -63,6 +65,14 @@ export default createStore({
             state.AboutViewVisible = !isVisible;
             state.ExamplesViewVisible = !isVisible;
             state.ResumeViewVisible = isVisible;
+        },
+        SET_FULL_SCREEN_IMAGE(state, isVisible) {
+            console.log("SETTING IMAGE VIS")
+            console.log(isVisible)
+            state.FullScreenImage = isVisible;
+        },
+        SET_CURRENT_IMAGE_PATH(state, path) {
+            state.currentImagePath = path;
         }
     }
 })
